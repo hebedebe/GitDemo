@@ -1,11 +1,47 @@
 #include <iostream>
 
+#include <string>
+
+using std::string;
+
 int main()
 {
-    int numberOfOdds = 15;
-    int total = numberOfOdds * numberOfOdds;
+    int valueOne, valueTwo;
+    std::cout << "First value:\n> ";
+    std::cin >> valueOne;
+    
+    std::cout << "Second value:\n> ";
+    std::cin >> valueTwo;
 
-    std::cout << "Total of the first " << numberOfOdds << " odd numbers is " << total << "\n";
+    char chosenOperator;
+    std::cout << "What operation would you like to perform? (+, -, *, /, %):\n> ";
+    std::cin >> chosenOperator;
 
-    return 0;
+    int output;
+
+    switch (chosenOperator) {
+        case '+':
+            output = valueOne + valueTwo;
+            break;
+        case '-':
+            output = valueOne - valueTwo;
+            break;
+        case '*':
+            output = valueOne * valueTwo;
+            break;
+        case '/':
+            output = valueOne / valueTwo;
+            break;
+        case '%':
+            output = valueOne % valueTwo;
+            break;
+        default:
+            output = 0;
+            std::cout << "\033[1;31mInvalid operator\n\033[0m";
+            break;
+    }
+
+    std::cout << valueOne << " " << chosenOperator << " " << valueTwo << " = " << output << "\n";
+
+    return EXIT_SUCCESS;
 }
