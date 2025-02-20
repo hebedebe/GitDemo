@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\s242289\\Documents\\git\\GitDemo\\Intro Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CA94D385-E5D1-40C7-8024-AE9894E3B5AD}|..\\Recursive Functions\\Recursive Functions.vcxproj|C:\\Users\\s242289\\Documents\\git\\GitDemo\\Recursive Functions\\Recursive Functions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED0B1548-2798-4105-9E3F-09066BD858B7}|Intro Project.vcxproj|C:\\Users\\s242289\\Documents\\git\\GitDemo\\Intro Project\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ED0B1548-2798-4105-9E3F-09066BD858B7}|Intro Project.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,12 +22,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Recursive Functions.cpp",
+              "DocumentMoniker": "C:\\Users\\s242289\\Documents\\git\\GitDemo\\Recursive Functions\\Recursive Functions.cpp",
+              "RelativeDocumentMoniker": "..\\Recursive Functions\\Recursive Functions.cpp",
+              "ToolTip": "C:\\Users\\s242289\\Documents\\git\\GitDemo\\Recursive Functions\\Recursive Functions.cpp*",
+              "RelativeToolTip": "..\\Recursive Functions\\Recursive Functions.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-06T01:25:34.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\s242289\\Documents\\git\\GitDemo\\Intro Project\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\s242289\\Documents\\git\\GitDemo\\Intro Project\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwCcAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-05T05:26:02.833Z",
               "EditorCaption": ""
